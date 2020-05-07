@@ -19,39 +19,43 @@
 
 
 <body>
-    <div class="container" id="main">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-info sticky-top">
-                <div class="container px-0">
-                    <a href="index.html"> Chris Soltren </a>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html"> About </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html"> Portfolio </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html"> Contact </a>
-                            </li>
-                        </ul>
+    <div class="container">
+        <div class="row">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-info sticky-top">
+                    <div class="container px-0">
+                        <a href="index.html"> Chris Soltren </a>
+                        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="index.html"> About </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="portfolio.html"> Portfolio </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html"> Contact </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </nav>
-        </header>
-        <hr>
-        <div class="main">
-            <h3> Contact </h3>
+                </nav>
+            </header>
+        </div>
+        <div class="row">
+
+            <h3 style="text-decoration: underline;"> Contact </h3>
 
             <hr>
 
-            <form>
+        </div>
+        <div class="row">
+            <form action="mailto:csoltren1@yahoo.com" method="GET">
                 <label> Name </label>
                 <input type="text" id="name">
 
@@ -61,16 +65,13 @@
                 <label> Message </label>
                 <textarea id="message">
             </textarea>
-                <button type="submit" class="submit-btn"> Submit </button>
-
+                <button type="submit" class="submit-btn" style="margin-top: 15px;" value="Send"> Submit </button>
             </form>
-
         </div>
-    </div>
 
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        Copyright &copy;
-    </footer>
+        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+            Copyright &copy;
+        </footer>
 
 </body>
 

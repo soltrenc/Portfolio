@@ -31,7 +31,6 @@ header {
 h3 {
     font-weight: 700px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #4aaaa5;
     font-size: 30px;
     padding-top: 15px;
     text-decoration: underline;
@@ -54,7 +53,7 @@ a {
 }
 
 a:hover {
-    color: #4aaaa5;
+    color: grey
 }
 
 a:focus {
